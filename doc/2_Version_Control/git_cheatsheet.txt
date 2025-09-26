@@ -1,0 +1,24 @@
+
+git commit: Records file changes to the repository's history with a unique ID.
+Arg: git commit (makes a new commit)
+
+git branch: Creates a lightweight pointer to a commit, enabling isolated development.
+Arg: git branch <branch_name> (makes a new branch)
+
+git checkout: Switches between branches or commits, updating the working directory.
+Arg: git checkout <branch_name> (switches to branch_name branch)
+
+git pull: Fetches from a remote repository and merges into the current branch (fetch + merge).
+Arg: git pull (grabs all info from remote and merges it)
+
+git push: Uploads local commits to a remote repository.
+Arg: git push (uploads your commits to main)
+
+git merge: Integrates changes from one branch into another, creating a merge commit.
+Arg: git merge <branch_name> (merges branch_name into the current checked branch)
+
+git rebase: Moves a branch to a new base commit, rewriting history for a linear timeline.
+Arg: git rebase <branch_name> (rebases current branch onto branch_name)
+
+git fetch: Downloads commits and references from a remote repository without merging.
+Arg: git fetch (grabs all info from remote)
