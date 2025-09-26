@@ -22,3 +22,16 @@ Arg: git rebase <branch_name> (rebases current branch onto branch_name)
 
 git fetch: Downloads commits and references from a remote repository without merging.
 Arg: git fetch (grabs all info from remote)
+
+git add: Prepares new files to be comitted by tracking and placing them in a "staging area"
+Arg: git add <location_of_file>
+
+git status: Shows current branch and current state of stagining area
+Arg: git status 
+
+git log: Detailed commit report for current branch
+Arg: git log
+
+git diff: Shows changes in working directory made since last commit
+Arg: git diff
+
